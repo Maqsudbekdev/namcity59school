@@ -1,0 +1,33 @@
+.cards_about {
+    width: 1585px;
+    height: 676px;
+    margin-left: 40px;
+    margin-bottom: 105px;
+    display: flex;
+}
+
+.first_AboutCard,
+.Second_AboutCard {
+    width: 776px;
+    height: 656px;
+}
+
+.first_back_Img_about,
+.second_back_Img_about {
+    width: 776px;
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first_back_Img_about {
+    background-image: url("https://i.postimg.cc/GhggmMH0/2022-09-01-15-27-47.jpg");
+}
+
+.second_back_Img_about {
+    background-image: url("https://i.postimg.cc/T24Zxp60/2022-09-01-15-28-07.jpg");
+}
+
+.Second_AboutCard {
+    margin-left: 33px;
+}

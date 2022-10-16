@@ -1,0 +1,90 @@
+.section {
+    width: 1585px;
+    height: 700px;
+    margin-left: 40px;
+    margin-bottom: 105px;
+    overflow: hidden;
+}
+
+.nav_section_carousel {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.left_and_right {
+    margin-left: 950px;
+    display: flex;
+}
+
+.left_carousel_item,
+.right_carousel_item {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 100%;
+}
+
+.left_carousel_item {
+    margin-right: 20px;
+}
+
+.cards {
+    display: flex;
+}
+
+.first_favourite_teacher_card,
+.second_favourite_teacher_card,
+.third_favourite_teacher_card,
+.fourth_favourite_teacher_card,
+.fifth_favourite_teacher_card,
+.sixth_favourite_teacher_card,
+.seventh_favourite_teacher_card {
+    min-width: 507px;
+    height: 617px;
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.second_favourite_teacher_card,
+.third_favourite_teacher_card,
+.fourth_favourite_teacher_card,
+.fifth_favourite_teacher_card,
+.sixth_favourite_teacher_card,
+.seventh_favourite_teacher_card {
+    margin-left: 32px;
+}
+
+.nav_favoruite_teacher_photo,
+.nav_favoruite_teacher_photo2,
+.nav_favoruite_teacher_photo3,
+.nav_favoruite_teacher_photo4,
+.nav_favoruite_teacher_photo5,
+.nav_favoruite_teacher_photo6,
+.nav_favoruite_teacher_photo7 {
+    position: absolute;
+    width: 507px;
+    height: 560px;
+    background-image: url("https://i.postimg.cc/tCc2F2Wh/2022-09-01-16-15-38.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nav_favoruite_teacher_photo2 {
+    background-image: url("https://i.postimg.cc/g263Bcyn/2022-09-01-18-18-38.jpg");
+}
+
+.nav_favoruite_teacher_photo3 {
+    background-image: url("https://i.postimg.cc/wBqTR0Bg/2022-09-01-18-20-30.jpg");
+}
+
+.top_favourite_teacher_name {
+    width: 507px;
+    height: 57px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 560px;
+}

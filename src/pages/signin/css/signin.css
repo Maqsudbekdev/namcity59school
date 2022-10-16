@@ -1,0 +1,125 @@
+.login {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.Sign_in_text {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email,
+.password {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px #fff;
+  color: #fff;
+  outline: none;
+}
+
+.email::-moz-placeholder, .password::-moz-placeholder {
+  letter-spacing: 2px;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.email:-ms-input-placeholder, .password:-ms-input-placeholder {
+  letter-spacing: 2px;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.email::placeholder,
+.password::placeholder {
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.email:hover::-moz-placeholder, .password:hover::-moz-placeholder {
+  color: #fff;
+}
+
+.email:hover:-ms-input-placeholder, .password:hover:-ms-input-placeholder {
+  color: #fff;
+}
+
+.email:hover::placeholder,
+.password:hover::placeholder {
+  color: #fff;
+}
+
+.login_email {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.login_email:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+.Sign_in_with_google {
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.Sign_in_with_google:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #000;
+}
+
+@media screen and (max-width: 786px) {
+  .image {
+    display: none;
+  }
+}/*# sourceMappingURL=signin.css.map */
